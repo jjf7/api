@@ -11,4 +11,8 @@ app.use('/', (req,res)=>{
     res.json({message:'Welcome to my api.'})
 })
 
+app.use('/products', (req,res)=>{
+    res.json({message:'List of products'})
+})
+
 module.exports = app 
